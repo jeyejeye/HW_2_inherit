@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.css">
+    <title>Home work 2</title>
+</head>
+<body>
+<div id="mocha"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/2.1.0/mocha.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chai/2.0.0/chai.js"></script>
+<script>
+    mocha.setup('bdd');
+    var assert = chai.assert;
+</script>
+<script src="../src/interfaces/interfaceList0.js"></script>
+<script src="../src/interfaces/interfaceList1.js"></script>
+<script src="../src/classes/arrayList0_methods.js"></script>
+<script src="../src/classes/linkedList0_methods.js"></script>
+<script src="../src/classes/arrayList1_methods.js"></script>
+<script src="../src/classes/linkedList1_methods.js"></script>
+
+<script src="./arrayList0_methods.test.js"></script>
+<script src="./linkedList0_methods.test.js"></script>
+<script src="./arrayList1_methods.test.js"></script>
+<script src="./linkedList1_methods.test.js"></script>
+<script>
+    mocha.run();
+</script>
+</body>
+</html>
+
